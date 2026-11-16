@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useReducer, useRef, useState } from 'react';
+import { useCallback, useEffect, useLayoutEffect, useReducer, useRef, useState } from 'react';
 import data from './exercises.json';
 import {
   idleState, litTicks, pause, remainingSeconds, restore, resume, start, tick,
@@ -407,7 +407,7 @@ function GifWindow({ src, alt, frozen }: { src: string; alt: string; frozen: boo
   };
 
   // While paused, show a still frame so the animation stops with the clock.
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!frozen) {
       setStill(false);
       return;

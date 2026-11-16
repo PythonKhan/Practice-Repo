@@ -33,7 +33,10 @@ const FRAME = 40; // ms: the on-screen clock updates once per animation frame, s
 const results = [];
 let URL_BASE = '';
 
+const ONLY = process.env.E2E_ONLY; // optional: run only tests whose name contains this text
+
 async function test(name, fn) {
+  if (ONLY && !name.includes(ONLY)) return;
   const t0 = Date.now();
   try {
     await fn();
