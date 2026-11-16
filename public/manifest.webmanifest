@@ -1,0 +1,16 @@
+{
+  "name": "Heel 10",
+  "short_name": "Heel 10",
+  "description": "A hands-free 10-minute sequence of ten gentle, heel-friendly exercises.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f2033",
+  "theme_color": "#0f2033",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

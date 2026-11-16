@@ -1,0 +1,18 @@
+{
+  "appName": "Heel 10",
+  "exerciseSeconds": 60,
+  "restSeconds": 5,
+  "expectedTotalSeconds": 645,
+  "exercises": [
+    {"id": 1, "name": "Body Waves", "gif": "assets/01_body_waves.gif", "cue": "Gentle bend; keep both heels flat."},
+    {"id": 2, "name": "Arm Circles", "gif": "assets/02_arm_circles.gif", "cue": "Make small arm circles with steady feet."},
+    {"id": 3, "name": "Overhead Arm Raises", "gif": "assets/03_overhead_arm_raises.gif", "cue": "Raise and lower your arms without rising onto your toes."},
+    {"id": 4, "name": "Arm Swings", "gif": "assets/04_arm_swings.gif", "cue": "Swing arms gently; keep feet still."},
+    {"id": 5, "name": "Trunk Twists", "gif": "assets/05_trunk_twists.gif", "cue": "Turn the upper body gently without pivoting your feet."},
+    {"id": 6, "name": "Seated Marches", "gif": "assets/06_seated_marches.gif", "cue": "Sit upright and lift one knee at a time."},
+    {"id": 7, "name": "Modified Windmills", "gif": "assets/07_modified_windmills.gif", "cue": "Reach only towards the opposite thigh; do not bend deeply."},
+    {"id": 8, "name": "Chair Sit to Stand", "gif": "assets/08_chair_sit_to_stand.gif", "cue": "Stand and sit slowly using a sturdy chair."},
+    {"id": 9, "name": "Stationary Wide Arm Openings", "gif": "assets/09_stationary_wide_arm_openings.gif", "cue": "Open arms widely without stepping."},
+    {"id": 10, "name": "Body Taps", "gif": "assets/10_body_taps.gif", "cue": "Tap your shoulders, arms and thighs gently."}
+  ]
+}
